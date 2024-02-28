@@ -1,0 +1,78 @@
+body{
+    border: 1px solid red;
+    font-size: 16px;
+    margin:0px auto;
+    max-width: 1024px;
+}
+header{
+    background: #D1E3EE;
+
+}
+header nav{
+    background: #026dc6;
+    width: 99%;
+    margin: 0px auto;
+    border-radius: 5px;
+    padding: 2px 0px;
+}
+header nav ul li{
+    border: 1px ;
+    color: white;   
+     display: inline-block;
+     margin-right: 20px;
+}
+header nav form{
+    float: right;
+    margin-top: -35px;
+    margin-right: 10px;
+
+}
+header nav form input{
+    border-radius: 5px;
+}
+header nav form input[type="submit"]{
+    background: green;
+    border: 1px solid green;
+    color:white;    
+
+}
+#logo{/*id="logo"*/
+    margin: -150px 0px 0px 0px;
+    /*margin-top: -150px;*/
+
+}
+#seccion1{
+    margin-top: 15px;
+}
+#seccion1 article{
+   text-align: center;
+}
+#seccion1 article img{
+    border: 3px solid rgba(150 , 150, 150, 0.5);
+    width: 98%;
+}
+#seccion2 article{
+    display: inline-block;
+    vertical-align: top;
+    width: 32.8%;
+}
+.nito{
+    font-weight: bold;
+    
+}
+.otraseccion{
+    font-size: 2.5em;
+}
+.unaseccion {
+    font-size: 4.5em;
+
+}
+#seccion2 article input[type="submit"]{
+    background: white;
+    border: 1px solid rgba(150, 150, 150, 0.4);
+    border-radius: 5px;
+    color:blue;  
+    margin-left: 40%;
+    width: 100px;  
+
+}
