@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrastrar y soltar</title>
+    <style>
+        #div1, #div2{
+            float: left;
+            border: 1px solid black;
+            height: 180px;
+            margin: 10px;
+            padding: 10px;
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Arrastrar y soltar</h2>
+    <div id="div1" ondragover="allowDrop(event)" ondrop="drop(event)">
+        <img src="img/logo.jpg" id="arrastre1" height="31" width="88" draggable="true" ondragstart="drag(event)">
+        <img src="img/logo.jpg" id="arrastre2" height="31" width="88" draggable="true" ondragstart="drag(event)">
+        <img src="img/logo.jpg" id="arrastre3" height="31" width="88" draggable="true" ondragstart="drag(event)">
+        <img src="img/logo.jpg" id="arrastre4" height="31" width="88" draggable="true" ondragstart="drag(event)">
+    </div>
+    <div id="div2" ondragover="allowDrop(event)" ondrop="drop(event)">
+    </div>
+    <script>
+        function allowDrop(event){
+            //permitimos  que el objeto caiga sobre el 
+            event.preventDefault();
+        }
+        function drag(ev){
+            //aqui guardamos la refferencia del objeto
+            ev.dataTransfer.setData("texto", ev.target.id);
+
+        }
+        function drop(ev){
+            ev.preventDefault();
+            var data=ev.dataTransfer.getData("texto");
+            ev.target.appendChild(document.getElementById(data));
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,111 @@
+body{
+    font-size: 16px; /* 1m */
+    margin: 0px auto;
+    max-width: 1078px;
+    min-width: 1078px;
+}
+#godocs{
+    position: absolute;
+}
+header article {
+    
+    display: inline-block;
+    margin-right: 150px;
+
+}
+header article img{
+    
+position: absolute;
+margin-top: -20px;
+}
+header article nav ul li {
+    font-family: sans-serif;
+    color: grey;
+    margin-top: 0px;
+    margin-left: 40px;
+    font-size: .8em;
+    vertical-align: middle;
+    display: inline-block;  
+    list-style: none;
+   
+  }
+
+#texto{
+font-weight: bold;
+font-size: 2em;
+font-family: sans-serif;
+
+}
+
+#contacto{
+
+    float: right;
+    margin-right: 40px;
+    margin-top: 15px;
+    position: relative;
+    width: 100px;
+    height: 40px;
+    border: solid red 1px;
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+}
+#buscar{
+    float: left;
+    margin-top: 00px;
+}
+#topics{
+    margin-top: 200px;
+    margin-bottom: 30px;
+    font-size: 2em;
+    font-family:sans-serif;
+    float: left;
+    font-weight: bold;
+    position: relative;
+    margin-left: -580px;
+}
+#change{
+    float: right;
+    float: right;
+    margin-right: 40px;
+    margin-top: 15px;
+    position: relative;
+    width: 100px;
+    height: 40px;
+    border: solid red 1px;
+    background-color: white;
+    border-radius: 5px;
+    color:red
+    
+}
+
+ #work{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    
+    margin-left: 30px;
+    margin-top: -30px;
+ }
+#lorem{
+  
+    color: gray;
+}
+section article{
+    border-radius: 2px;
+   
+    margin-top: -20px;
+    display: inline-block;
+    padding: 40px;
+    
+}
+section article span{
+font-weight: bold;
+font-family: sans-serif;
+
+}
+#seccionarriba{
+   
+    display: inline-block;
+}
+
